@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/gpt3.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/port-design.png";
 import sonesta from "../assets/img/sonesta.png";
 import doomBurst from "../assets/img/doomburst.png";
 import LookAi from "../assets/img/lookai.png";
@@ -25,7 +25,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
-      link: "https://sonesta-frontend-design-eeih.vercel.app/",
+      link: "https://portfolio-design-1-blond.vercel.app/",
     },
     {
       title: "LOOK AI",
@@ -58,7 +58,7 @@ export const Projects = () => {
       title: "Flick Plix",
       description: "Movie Stream Application",
       imgUrl: flickPlix,
-      link: "https://sonesta-frontend-design-eeih.vercel.app/",
+      link: "https://github.com/Yasiru-Deshan/Flick-Plix",
     },
     {
       title: "Business Startup",
