@@ -9,11 +9,10 @@ import flickPlix from "../assets/img/flickplix.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import farmer from "../assets/img/farmer.png";
 import bank from "../assets/img/bank.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-
   const projects = [
     {
       title: "Business Startup",
@@ -64,7 +63,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: doomBurst,
-      link: "https://sonesta-frontend-design-eeih.vercel.app/",
+      link: "https://drive.google.com/file/d/14wluA7osj1joQdDWOATu5iGHyUTpn0uq/view?usp=drive_link",
     },
     {
       title: "LOOK AI",
@@ -171,4 +170,4 @@ export const Projects = () => {
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
   );
-}
+};
