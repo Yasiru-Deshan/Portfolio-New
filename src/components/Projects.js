@@ -7,18 +7,26 @@ import doomBurst from "../assets/img/doomburst.png";
 import LookAi from "../assets/img/lookai.png";
 import flickPlix from "../assets/img/flickplix.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import farmer from "../assets/img/farmer.png";
+import farmer from "../assets/img/smart-farmer.png";
 import bank from "../assets/img/bank.png";
 import projmanager from "../assets/img/proj-manager.png";
+import instrument from "../assets/img/instrument.png";
+import property from "../assets/img/property.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "LOOK AI",
+      description: "Research Project",
+      imgUrl: LookAi,
+      link: "https://look-ai-web-yl66.vercel.app/",
+    },
+    {
+      title: "Hotel Sonesta",
+      description: "Custom Web Design",
+      imgUrl: sonesta,
       link: "https://sonesta-frontend-design-eeih.vercel.app/",
     },
     {
@@ -28,22 +36,10 @@ export const Projects = () => {
       link: "https://portfolio-design-1-blond.vercel.app/",
     },
     {
-      title: "LOOK AI",
-      description: "Research Project",
-      imgUrl: LookAi,
-      link: "https://look-ai-web-yl66.vercel.app/",
-    },
-    {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: bank,
       link: "https://react-fully-responsive-project.vercel.app/",
-    },
-    {
-      title: "Hotel Sonesta",
-      description: "Custom Web Design",
-      imgUrl: sonesta,
-      link: "https://sonesta-frontend-design-eeih.vercel.app/",
     },
     {
       title: "Smart Farmer",
@@ -61,8 +57,8 @@ export const Projects = () => {
       link: "https://github.com/Yasiru-Deshan/Flick-Plix",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "DoomBurst",
+      description: "Social Media Application",
       imgUrl: doomBurst,
       link: "https://drive.google.com/file/d/14wluA7osj1joQdDWOATu5iGHyUTpn0uq/view?usp=drive_link",
     },
@@ -71,25 +67,19 @@ export const Projects = () => {
       description: "Research Project",
       imgUrl: projmanager,
       link: "",
-      link: "https://sonesta-frontend-design-eeih.vercel.app/",
+      link: "https://github.com/Yasiru-Deshan/File-Saver-Application",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      link: "https://sonesta-frontend-design-eeih.vercel.app/",
+      title: "Instrumental Shop",
+      description: "E-commerce Web Application",
+      imgUrl: instrument,
+      link: "https://github.com/Yasiru-Deshan/MU-Shop",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: sonesta,
-      link: "https://sonesta-frontend-design-eeih.vercel.app/",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: LookAi,
-      link: "https://sonesta-frontend-design-eeih.vercel.app/",
+      title: "Real Estate Management System",
+      description: "E-commerce Web Application",
+      imgUrl: property,
+      link: "https://github.com/Yasiru-Deshan/Property-Management-System",
     },
   ];
 
