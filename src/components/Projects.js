@@ -9,6 +9,7 @@ import flickPlix from "../assets/img/flickplix.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import farmer from "../assets/img/farmer.png";
 import bank from "../assets/img/bank.png";
+import projmanager from "../assets/img/proj-manager.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -68,7 +69,7 @@ export const Projects = () => {
     {
       title: "LOOK AI",
       description: "Research Project",
-      imgUrl: LookAi,
+      imgUrl: projmanager,
       link: "",
       link: "https://sonesta-frontend-design-eeih.vercel.app/",
     },
