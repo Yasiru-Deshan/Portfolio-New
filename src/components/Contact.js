@@ -31,6 +31,9 @@ export const Contact = () => {
         .then(
           (result) => {
             console.log(result.text);
+            if(result.text === "OK"){
+              setButtonText('Sent');
+            }
           },
           (error) => {
             console.log(error.text);
