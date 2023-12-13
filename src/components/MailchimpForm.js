@@ -8,13 +8,13 @@ export const MailchimpForm = () => {
     <>
       <MailchimpSubscribe
         url={postUrl}
-        render={({ subscribe, status, message }) => (
-          <Newsletter
-            status={status}
-            message={message}
-            onValidated={formData => subscribe(formData)}
-            />
-        )}
+        // render={({ subscribe, status, message }) => (
+        //   <Newsletter
+        //     status={status}
+        //     message={message}
+        //     onValidated={formData => subscribe(formData)}
+        //     />
+        // )}
         />
     </>
   )
