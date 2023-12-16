@@ -12,6 +12,7 @@ import bank from "../assets/img/bank.png";
 import projmanager from "../assets/img/proj-manager.png";
 import instrument from "../assets/img/instrument.png";
 import property from "../assets/img/property.png";
+import blogburst from "../assets/img/blogburst.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -91,6 +92,14 @@ export const Projects = () => {
       link: "https://github.com/Yasiru-Deshan/Property-Management-System",
       techStack: "Java, JSP Servlets, SQL",
     },
+    {
+      title: "Blog Burst",
+      description: "Blog Web Site",
+      imgUrl: blogburst,
+      link: "",
+      link: "https://github.com/Yasiru-Deshan/BlogBurst",
+      techStack: "React Js, Node Js, MongoDB, Express Js, JWT Authentication",
+    },
   ];
 
   return (
@@ -122,10 +131,10 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Web Designs</Nav.Link>
+                        <Nav.Link eventKey="first">Web Apps</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Web Apps</Nav.Link>
+                        <Nav.Link eventKey="second">Web Designs</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">Mobile Apps</Nav.Link>
@@ -139,14 +148,14 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
+                          {apps.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <Row>
-                          {apps.map((app, index) => {
+                          {projects.map((app, index) => {
                             return <ProjectCard key={index} {...app} />;
                           })}
                         </Row>
