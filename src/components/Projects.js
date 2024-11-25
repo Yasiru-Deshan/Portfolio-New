@@ -13,6 +13,7 @@ import projmanager from "../assets/img/proj-manager.png";
 import instrument from "../assets/img/instrument.png";
 import property from "../assets/img/property.png";
 import blogburst from "../assets/img/blogburst.png";
+import muthu from "../assets/img/muthu.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -56,6 +57,13 @@ export const Projects = () => {
   ];
 
   const apps = [
+    {
+      title: "Muthugala Group Ledger",
+      description: "Vehicle Managing Admin Dashboard",
+      imgUrl: muthu,
+      link: "https://muthugala-group-ledger.vercel.app/",
+      techStack: "React Js, Node Js, MongoDB, Express Js, JWT Authentication",
+    },
     {
       title: "Flick Plix",
       description: "Movie Stream Application",
